@@ -1,0 +1,7 @@
+.App-start .component {
+  padding: 1rem;
+  color: blue;
+  border: 5px solid blue;
+}
+
+/* このChild.cssファイルは新規作成したもの */
