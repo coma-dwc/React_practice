@@ -22,3 +22,16 @@ const Child = () => {
 };
 
 export default Child;
+
+// 元々の記述
+// import "./Child.css";
+
+// const Child = () => {
+//   return (
+//     <div className="component">
+//       <h3>Hello Component</h3>
+//     </div>
+//   );
+// };
+
+// export default Child;
