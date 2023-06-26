@@ -10,6 +10,12 @@
   border: 5px solid red;
 }
 
+.App-start .component.green {
+  padding: 1rem;
+  color: green;
+  border: 5px solid green;
+}
+
 /* 元々の記述
 .App-start .component {
   padding: 1rem;
