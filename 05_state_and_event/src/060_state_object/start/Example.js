@@ -5,7 +5,11 @@ const Example = () => {
   const [person, setPerson] = useState(personObj);
 
   const changeName = (e) => {
-    setPerson({ name: e.target.value, age: person.age })
+    // setPerson({ name: e.target.value, age: person.age })
+    //以下スプレッド演算子で書く方法
+    person.name = e.target.value;
+    setPerson({ ...person, name: e.target.value })
+
   }
 
   const changeAge = (e) => {
