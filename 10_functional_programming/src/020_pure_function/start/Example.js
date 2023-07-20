@@ -1,4 +1,4 @@
-import { CONST_VAL } from "someModule"
+// import { CONST_VAL } from "someModule"
 
 const Example = () => {
   // 関数型（純粋関数）
