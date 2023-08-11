@@ -40,7 +40,7 @@ const Timer = () => {
   }, [time]);
 
   useLayoutEffect(() => {
-    const _time = parseInt(window.localStorage.getItem('time-key-end'));
+    const _time = parseInt(window.localStorage.getItem('time-key'));
     if(!isNaN(_time)) {
       setTime(_time);
     }
